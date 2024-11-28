@@ -1,0 +1,247 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+ <!--icon-->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+    
+ 
+ <!--swiper-->
+ <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+ <title>UDDOM</title>
+</head>
+<body>
+   <!--navbar-->
+   <nav class="navbar">
+   <h2 class="navbar-logo"><a href="#">Uddom</a></h2>
+    <div class="navbar-menu">
+        <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="#companies">Category</a>
+    <a href="login.html">Sign In</a>
+    <div class="dropdown">
+        <a href="#blog" class="dropdown-toggle">Sign Up</a>
+        <div class="dropdown-menu">
+            <a href="reg.html">User</a>
+            <a href="company-signin.html">Company</a>
+        </div>
+    </div>
+    
+</div>
+<div class="menu-toggle">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span> 
+</div>
+</nav><br><br><br>
+<!--header-->
+<header>
+    <h1 class="header-title">
+        Get <span>Hired</span>, Gain <span>Experience</span><br> Explore Job opening near you!
+    </h1>
+</header>
+<!--search-->
+
+<div class="search-wrapper">
+    <div class="search-box">
+        <div class="search-card">
+            <input class="search-input" types="text" placeholder="search">
+            <button class="search-button"> Search</button>
+        </div>
+    </div>
+</div>
+<!--filter box-->
+<div class="filter-box">
+    <div class="filter-dropdown">
+        <select class="filter-select" id="age" name="age">
+           
+            <option>Age</option>
+            <option>Age 15-17</option>
+            <option>Age 18-20</option>
+            <option>Age 21-24</option>
+            <option>Age 25-28</option>
+         
+        </select>
+        <select class="filter-select" id="employment" name="employment">
+            <option>Job Type</option>
+            <option>Shop</option>
+            <option>Tution</option>
+            <option>Elderly Care</option>
+            <option>Cleaner</option>
+            <option>Baby Care</option>
+            <option>Restaurant</option>
+        </select>
+        <select class="filter-select" id="Location" name="Location">
+            <option>Location</option>
+            <option>Dhaka</option>
+            <option>Chattogram</option>
+            <option>Khulna</option>
+            <option>Barishal</option>
+            <option>Rajshahi</option>
+            <option>Rangpur</option>
+            <option>Sylhet</option>
+            <option>Mymensingh</option>
+            </select>
+    </div>
+</div>
+
+<!--featured-card-->
+<!--shop-->
+<section class="featured" id="companies">
+    <h1 class="section-title">Category</h1>
+    <div class="featured-wrapper">
+        <div class="featured-card">
+            <img class="featured-image" src="img/shop.png">
+           
+            <button class="featured_b" onclick="window.location.href='shop.html'">Shop</button>
+
+        </div>
+    
+<!--Tution-->
+   
+        <div class="featured-card">
+            <img class="featured-image" src="img/care.png">
+            
+            <button class="featured_b" onclick="window.location.href='elder.html'">Elderly Care</button>
+        </div>
+ 
+
+    
+        <div class="featured-card">
+            <img class="featured-image" src="img/tution.png">
+          
+            <button class="featured_b">Tution</button>
+        </div>
+    </div>
+
+        <div class="featured-wrapper">
+        <div class="featured-card">
+            <img class="featured-image" src="img/baby.png">
+           
+            <button class="featured_b">Baby Care</button>
+        </div>
+    
+
+    
+        <div class="featured-card">
+            <img class="featured-image" src="img/clean.png">
+           
+            <button class="featured_b">Cleaning</button>
+        </div>
+
+        <div class="featured-card">
+            <img class="featured-image" src="img/res.png">
+         
+            <button class="featured_b">Restaurant</button>
+        </div>
+    </div>
+
+</section>
+
+<!--info-->
+<section class="join">
+    <div class ="join-details">
+        <h1 class="section-title1">Start Your Journey, Find Jobs with No Experience!</h1><br>
+        <p>Looking for your first job?<br> Explore opportunities in baby care, elderly care, tutoring, sales, cleaning, and more.<br> Join now and discover roles perfect for beginners like you!</p>
+       <br> <button class="featured_j" >Join Now</button>
+    </div>
+</section>
+<!--testimonial-->
+<section class="testimonial" id="testimonial">
+    <h1 class="section-title2">Testimonial</h1>
+    <div class="swiper My">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+            <i class="fas fa-quote-left"></i>
+            <h3>Our website is built on a foundation of trust, transparency, and integrity. We prioritize your security and privacy, ensuring that all information is handled with the utmost care. With a commitment to providing accurate and reliable services, we strive to create a safe and dependable space for all our users. You can trust us to deliver excellence every step of the way</h3>
+            <div class="testimonial-pic">
+            <img src="img/boy.png">
+                <p>Mr.Yasir Alam</p>
+                <span>Student</span>
+            </div>
+        </div>
+
+        
+            <div class="swiper-slide">
+            <i class="fas fa-quote-left"></i>
+            <h3>Our website is built on a foundation of trust, transparency, and integrity. We prioritize your security and privacy, ensuring that all information is handled with the utmost care. With a commitment to providing accurate and reliable services, we strive to create a safe and dependable space for all our users. You can trust us to deliver excellence every step of the way</h3>
+            <div class="testimonial-pic">
+                <img src="img/girl.png">
+                <p>Nila Alam</p>
+                <span>Student</span>
+            </div>
+        </div>
+
+     
+            <div class="swiper-slide">
+            <i class="fas fa-quote-left"></i>
+            <h3>Our website is built on a foundation of trust, transparency, and integrity. We prioritize your security and privacy, ensuring that all information is handled with the utmost care. With a commitment to providing accurate and reliable services, we strive to create a safe and dependable space for all our users. You can trust us to deliver excellence every step of the way</h3>
+            <div class="testimonial-pic">
+                <img src="img/boy1.png">
+                <p>Afrin Islam</p>
+                <span>Student</span>
+            </div>
+        </div>
+
+     
+            <div class="swiper-slide">
+            <i class="fas fa-quote-left"></i>
+            <h3>Our website is built on a foundation of trust, transparency, and integrity. We prioritize your security and privacy, ensuring that all information is handled with the utmost care. With a commitment to providing accurate and reliable services, we strive to create a safe and dependable space for all our users. You can trust us to deliver excellence every step of the way</h3>
+            <div class="testimonial-pic">
+                <img src="img/girl1.png">
+                <p>Usrat Tamim</p>
+                <span>Student</span>
+            </div>
+        </div>
+
+     
+            <div class="swiper-slide">
+            <i class="fas fa-quote-left"></i>
+            <h3>Our website is built on a foundation of trust, transparency, and integrity. We prioritize your security and privacy, ensuring that all information is handled with the utmost care. With a commitment to providing accurate and reliable services, we strive to create a safe and dependable space for all our users. You can trust us to deliver excellence every step of the way</h3>
+            <div class="testimonial-pic">
+                <img src="img/girl2.png">
+                <p>Maisha Sultana</p>
+                <span>Student</span>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="swiper-pagination"></div>
+</div>
+</section>
+<!--footer-->
+<div class="footer">
+    <div class="social">
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-youtube"></i></a>
+    </div>
+    <div class="footer-nav">
+        <ul>
+           <a href="">Home</a>
+           <a href="">About</a>
+            <a href="">Job</a>
+          <a href="">Contact Us</a>
+        </ul>
+    </div>
+    <div class="footer-bottom">
+        <p>Copyright &copy;2024; Designed by <span class="designer">Tahiyat</span></p>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
